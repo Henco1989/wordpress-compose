@@ -4,6 +4,9 @@ This file will setup Wordpress, MySQL & PHPMyAdmin with a single command. Add th
 
 ```
 $ docker-compose up -d
+
+# To Tear Down
+$ docker-compose down --volumes
 ```
 
 ```
