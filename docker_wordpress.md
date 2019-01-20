@@ -6,7 +6,7 @@ This file will setup Wordpress, MySQL & PHPMyAdmin with a single command. Add th
 $ docker-compose up -d
 ```
 
-'''
+```
 version: '3'
 
 services:
@@ -55,4 +55,4 @@ networks:
   wpsite:
 volumes:
   db_data:
-'''
+```
